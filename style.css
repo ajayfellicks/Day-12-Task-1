@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+body {
+  background-color: #cad2c5 !important;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  background-color: #2f3d46;
+  align-items: center;
+  height: 6rem;
+}
+
+.fa-brands {
+  font-size: 3rem !important;
+  color: white !important;
+}
+
+.logo {
+  display: inline;
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+.title {
+  font-family: "Jost", sans-serif;
+  color: white;
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 4px;
+  margin-right: auto;
+}
+
+.form-control {
+  padding: 1rem !important;
+  background-color: #333333 !important;
+  border: none !important;
+  border-radius: 10px !important;
+}
+.form-control::placeholder {
+  font-family: "Outfit", sans-serif;
+  color: #a5a5a5 !important;
+  padding: 1rem !important;
+  font-size: 20px;
+  letter-spacing: 5px;
+}
+
+.aside {
+  background-color: #333333;
+  height: 40rem;
+  border-radius: 20px;
+  margin-top: 5rem !important;
+  margin-left: 5rem !important;
+  margin-right: 4rem !important;
+}
+
+.box {
+  background-color: #333333;
+  border-radius: 15px;
+  height: 12rem;
+}
+
+.box:nth-child(2) {
+  margin-left: 6rem !important;
+  margin-right: 6rem !important;
+}
+
+.main-box {
+  background-color: #333333;
+  border-radius: 25px;
+  height: 15rem;
+}
+
+.content {
+  margin: 4rem !important;
+}
+
+.search-bar {
+  margin-top: 1rem !important;
+  margin-bottom: 4rem !important;
+  margin-left: 6rem !important;
+  margin-right: 6rem !important;
+}
+
+.three-box {
+  margin-bottom: 4rem !important;
+}
